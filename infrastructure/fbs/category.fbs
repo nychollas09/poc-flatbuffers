@@ -1,0 +1,9 @@
+namespace com.flatbuffers.poc.infrastructure.fbs;
+
+table Category {
+  id: int;
+  name: string;
+  description: string;
+}
+
+root_type Category;

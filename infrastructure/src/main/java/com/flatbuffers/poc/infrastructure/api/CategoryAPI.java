@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface CategoryAPI {
 
     @PostMapping
-    ResponseEntity<?> createCategory(@RequestBody byte[] input);
+    ResponseEntity<?> createCategory(@RequestBody byte[] input) throws Exception;
 
 }

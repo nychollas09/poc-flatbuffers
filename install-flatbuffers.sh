@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 apt-get install build-essential
 git clone https://github.com/google/flatbuffers.git

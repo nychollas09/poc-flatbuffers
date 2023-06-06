@@ -1,4 +1,6 @@
 infrastructure/src/main/java/com/flatbuffers/poc/infrastructure/fbs
+*.bin
+*.bfbs
 
 HELP.md
 target/
